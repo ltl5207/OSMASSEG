@@ -4,11 +4,14 @@
 
 ## Our models reported in the paper
 - trained on ACDC, 10% supervised: https://drive.google.com/file/d/1eTNFx56Er_94p82a3jRHSNS0g63_MipK/view?usp=sharing
-- trained on PDDCA, one-shot:
+- trained on PDDCA, one-shot: https:
 
 ## Using our code to train
 ### Synthetic data generation
+*please use the matlab codes in the folder:*
 ### Pre-trained pseudo-label prediction model training
-### Pre-trained GAN for domain adaption 
+*please use the python codes in xx folder, the codes are consistent with the official code of TransUNet.*
+### Pre-trained GAN for domain adaption
+**
 ### Offline pseudo-label prediction
 ### Final segmentation model
