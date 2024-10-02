@@ -9,6 +9,7 @@
 ## Using our code to train
 ### Synthetic data generation
 *please use the matlab codes in the folder:*
+You may also use our synthetic data slices from https: , but only for academic use.
 ### Pre-trained pseudo-label prediction model training
 *please use the python codes in xx folder, the codes are consistent with the official code of TransUNet.*
 ### Pre-trained GAN for domain adaption
