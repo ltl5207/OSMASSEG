@@ -4,7 +4,7 @@
 
 ## Our models reported in the paper
 - trained on ACDC, 10% supervised: https://drive.google.com/file/d/1eTNFx56Er_94p82a3jRHSNS0g63_MipK/view?usp=sharing
-- trained on PDDCA, one-shot: https://
+- trained on PDDCA, one-shot: https://drive.google.com/file/d/1Y3oLN70NDp7Zdwkx77R1tiJeIQo4wBvv/view?usp=sharing
 
 ## Using our code to train
 ### Synthetic data generation
