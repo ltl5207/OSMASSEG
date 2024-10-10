@@ -1,6 +1,6 @@
 # OSMASSEG
 
-*coming soon*
+*the left parts will be coming soon.*
 
 ## Our models reported in the paper
 - trained on ACDC, 10% supervised: https://drive.google.com/file/d/1eTNFx56Er_94p82a3jRHSNS0g63_MipK/view?usp=sharing
