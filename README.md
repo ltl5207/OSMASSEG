@@ -3,7 +3,7 @@
 *the left parts will be coming soon.*
 
 ## Our models reported in the paper
-- trained on ACDC, 10% supervised(axial slices, no cropping): https://drive.google.com/file/d/1eTNFx56Er_94p82a3jRHSNS0g63_MipK/view?usp=sharing
+- trained on ACDC, 10% supervised(axial slices, no cropping): https://drive.google.com/file/d/1dS-9s_nLW4QqX-Fl0zIZV85RQUFu_wfJ/view?usp=drive_link
 - trained on PDDCA, one-shot(coronal slices, head centered cropping): https://drive.google.com/file/d/1Y3oLN70NDp7Zdwkx77R1tiJeIQo4wBvv/view?usp=sharing
 
 ## Using our code to train
