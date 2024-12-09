@@ -12,19 +12,19 @@
   https://drive.google.com/file/d/1Y3oLN70NDp7Zdwkx77R1tiJeIQo4wBvv/view?usp=sharing
 
 ## Using our code to train
-### Synthetic data generation
+### 1. Synthetic data generation
 Please use the matlab codes in the folder: "synthetic_data_create" , to create the synthetic data from random FFD based on B-spline.
 
 The value of the variable of the reference data path needs to be changed according to your condition.
 
 The data format of this code can accept is in MHA, and the output is volumetric data. However, it is very easy to perform data format conversion and volumetric data slicing using packages such as SimpleITK, nibabel, and Pillow.
 
-You may also use our synthetic data slices from https://\*\* , but only for academic use.
-### Pre-trained pseudo-label prediction model training
+You may also use our synthetic data slices from https://drive.google.com/file/d/1AQMvOedlVlW8WJr1Lt3wluzlXOybtcLc/view?usp=sharing , but only for academic use.
+### 2. Pre-trained pseudo-label prediction model training
 With the labeled data synthesized from one(pddca) or few(acdc) reference data, please use the python codes in trans-unet folder to train the pre-trained pseudo-label prediction model. The codes in this folder are mainly consistent with the official code of TransUNet, except the dataset class for our pics.
-### Pre-trained GAN for domain adaption
+### 3. Pre-trained GAN for domain adaption
 **
-### Offline pseudo-label prediction
+### 4. Offline pseudo-label prediction
 If you want to accelerate the training process, you can generate offline pseudo-labels using the translation and segment model pretrained for the warm-up stage, during which these pseudo-labels will not be updated. the according codes are at: \*\*
-### Final segmentation model
+### 5. Final segmentation model
 ### Model test
