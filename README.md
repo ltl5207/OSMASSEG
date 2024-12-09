@@ -1,6 +1,8 @@
 # OSMASSEG
 
-*the left parts will be coming soon.*  *Throughout all stages of the experiment, the storage format for the slices we use is JPEG for data and PNG for labels, for the convience of training GAN-based translation model.*
+*the left parts will be coming soon.*  
+
+*Throughout all stages of the experiment, the storage format for the slices we use is JPEG for data and PNG for labels, for the convience of training GAN-based translation model.*
 
 ## Our models reported in the paper
 - trained on ACDC, 10% supervised(axial slices, no cropping):
