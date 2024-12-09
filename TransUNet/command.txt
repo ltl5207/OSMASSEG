@@ -1,3 +1,0 @@
-python ./train.py --dataset synct40 --vit_name R50-ViT-B_16
-python ./train.py --dataset syn40 --vit_name R50-ViT-B_16
-python ./train.py --dataset syn40 --vit_name R50-ViT-B_16
