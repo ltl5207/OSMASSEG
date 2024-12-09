@@ -24,7 +24,7 @@ from datasets.dataset_syn40_chenxi import syn40_chenxi_dataset
 from datasets.dataset_pddca_syn36 import pddca_syn36_dataset
 from datasets.dataset_ACDC70syn import ACDC70syn_dataset
 # need to be modified to the dir of the translation model(GAN)
-sys.path.append('../../../triple/')
+sys.path.append('../../../translation/')
 import os
 from options.test_options import TestOptions
 from data import create_dataset
