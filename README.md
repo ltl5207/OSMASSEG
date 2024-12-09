@@ -1,6 +1,6 @@
 # OSMASSEG
 
-*the left parts will be coming soon.*
+*the left parts will be coming soon.*  *Throughout all stages of the experiment, the storage format for the slices we use is JPEG for data and PNG for labels, for the convience of training GAN-based translation model.*
 
 ## Our models reported in the paper
 - trained on ACDC, 10% supervised(axial slices, no cropping):
@@ -21,7 +21,7 @@ The data format of this code can accept is in MHA, and the output is volumetric 
 
 You may also use our synthetic data slices from https://\*\* , but only for academic use.
 ### Pre-trained pseudo-label prediction model training
-With the labeled data synthesized from one(pddca) or few(acdc) reference data, please use the python codes in trans-unet folder to train the pre-trained pseudo-label prediction model. The codes in this folder are basicly consistent with the official code of TransUNet.
+With the labeled data synthesized from one(pddca) or few(acdc) reference data, please use the python codes in trans-unet folder to train the pre-trained pseudo-label prediction model. The codes in this folder are mainly consistent with the official code of TransUNet, except the dataset class for our pics.
 ### Pre-trained GAN for domain adaption
 **
 ### Offline pseudo-label prediction
