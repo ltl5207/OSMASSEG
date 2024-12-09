@@ -19,7 +19,7 @@ Please use the matlab codes in the folder: "synthetic_data_create" , to create t
 
 The value of the variable of the reference data path needs to be changed according to your condition.
 
-The data format of this code can accept is in MHA, and the output is volumetric data. However, it is very easy to perform data format conversion and volumetric data slicing using packages such as SimpleITK, nibabel, and Pillow.
+The data format of this code can accept is in MHA, and the output is volumetric data. However, it is pretty easy to perform data format conversion and volumetric data slicing using packages such as SimpleITK, nibabel, and Pillow.
 
 You may also use our synthetic data slices from https://drive.google.com/file/d/1AQMvOedlVlW8WJr1Lt3wluzlXOybtcLc/view?usp=sharing , but only for academic use.
 ### 2. Pre-trained pseudo-label prediction model training
