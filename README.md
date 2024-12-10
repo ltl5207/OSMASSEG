@@ -16,9 +16,9 @@
 ## 1. Conduct the experiment from the data synthesis.
 
 
-------------------
+
 *if you don't want to perform the data synthesis or conduct the training process of the GAN for image translation and the segmentation model for pseudo-label, please go to the 2.*
--------------------
+
 
 ### 1). Synthetic data generation
 Please use the matlab codes in the folder: "**synthetic_data_create**" , to create the synthetic data from random FFD based on B-spline.
