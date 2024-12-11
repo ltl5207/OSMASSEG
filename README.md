@@ -41,9 +41,15 @@ CUDA_VISIBLE_DEVICES=0 python ./train.py --name real2syn_acdc --dataroot ./datas
 
 ```
 
+After the training process, we select the Gan model whose translation results can have the best promotion on the validation set for the downstream task.
+
 ### 4). Offline pseudo-label prediction
-If you want to accelerate the training process of the final segmentation model, you can generate offline pseudo-labels using the translation and segment model pretrained for the warm-up stage, during which these pseudo-labels will not be updated. the according codes are at: \*\*
+If you want to accelerate the training process of the final segmentation model, you can generate offline pseudo-labels using the translation and segment model pretrained for the warm-up stage, during which these pseudo-labels will not be updated. the according codes are at: SACL/generate_pl.py
 ### 5). Final segmentation model
+Please run the train_pddca_v1.py and train_acdc_10sup.py in SACL folder, the commands we use are in the comments above the "__main__" line. Models will be saved at checkpoints folder.
 ### 6). Model test
+Please run the test_otherpeople_acdc.py and test_otherpeople_pddca.py firstly to save prediction masks. Then run other test codes for the metrics.
 
 ## 2. Directly train the final segmentation model using our synthetic data and pretrained models.
+
+if you don't want to start from the data synthesis, please download our pretrained models and data slices from: http://. Note that the slice pictures that have the suffix of "_A" means they belong to the clinical domain, and "_B" means the synthetic data. The label slice pictures of _A were generated pseudo-label from the pretrained models.
