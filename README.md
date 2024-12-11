@@ -50,4 +50,4 @@ Please run the test_otherpeople_acdc.py and test_otherpeople_pddca.py firstly to
 
 ## 2. Directly train the final segmentation model using our synthetic data and pretrained models.
 
-if you don't want to start from the data synthesis, please download our pretrained models and data slices from: http://. Note that the slice pictures that have the suffix of "_A" means they belong to the clinical domain, and "_B" means the synthetic data. The label slice pictures of _A were generated pseudo-label from the pretrained models.
+if you don't want to start from the data synthesis, please download our pretrained models and data slices from: https://drive.google.com/drive/folders/12Kra8FHc2giKMhpsMAZ1iFsvwi1OpZWF?usp=sharing. Note that the slice pictures that have the suffix of "_A" means they belong to the clinical domain, and "_B" means the synthetic data. The label slice pictures of _A were generated pseudo-label from the pretrained models.
