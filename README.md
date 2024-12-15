@@ -2,7 +2,7 @@
 
 *Throughout all stages of the experiment, the storage format for the slices we use is JPEG for data and PNG for labels, for the convience of training GAN-based translation model.*
 
-## Our models reported in the paper
+## 0. Our models reported in the paper
 - trained on ACDC, 10% supervised(axial slices, no cropping):
 
   https://drive.google.com/file/d/1dS-9s_nLW4QqX-Fl0zIZV85RQUFu_wfJ/view?usp=drive_link
@@ -42,7 +42,7 @@ CUDA_VISIBLE_DEVICES=0 python ./train.py --name real2syn_acdc --dataroot ./datas
 After the training process, we select the Gan model whose translation results can have the best promotion on the validation set for the downstream task.
 
 ### 4). Offline pseudo-label prediction
-If you want to accelerate the training process of the final segmentation model, you can generate offline pseudo-labels using the translation and segment model pretrained for the warm-up stage, during which these pseudo-labels will not be updated. the according codes are at: SACL/generate_pl.py
+If you want to accelerate the training process of the final segmentation model, you can generate offline pseudo-labels using the pretrained translation and segment models  for the warm-up stage, during which these pseudo-labels will not be updated. the according codes are at: SACL/generate_pl.py
 ### 5). Final segmentation model
 Please run the train_pddca_v1.py and train_acdc_10sup.py in SACL folder, the commands we use are in the comments above the "__main__" line. Models will be saved at checkpoints folder.
 ### 6). Model test
